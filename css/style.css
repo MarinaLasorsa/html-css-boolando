@@ -39,6 +39,25 @@ body {
 	width: calc(100% / 3);
 }
 
+/*STYLE*/
+
+.card-header {
+	position: relative;
+}
+
+/*COMPONENTS*/
+
+.heart-badge {
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+	padding: 0 10px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+
+
 /*DEBUG*/
 
 .debug .container {
