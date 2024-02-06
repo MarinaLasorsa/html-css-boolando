@@ -59,6 +59,17 @@ body {
     color: red;
 }
 
+.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0
+}
+
+.col-1-3:hover .hover-image {
+    opacity: 1
+}
+
 /*UTILITIES*/
 
 .line-through {
