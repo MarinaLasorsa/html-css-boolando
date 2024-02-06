@@ -19,3 +19,32 @@ a {
     color: currentColor;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*LAYOUT*/
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1-3 {
+	width: calc(100% / 3);
+}
+
+/*DEBUG*/
+
+.debug .container {
+    border: 1px solid red;
+}
+
+.debug .col-1-3 {
+    border: 1px solid black;
+}
