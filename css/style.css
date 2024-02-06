@@ -56,6 +56,27 @@ body {
     top: 10px;
 }
 
+.badge {
+    color: white;
+    font-size: 10px;
+	padding: 5px;
+    font-weight: bold;
+}
+
+.badge.badge-green {
+    background-color: green;
+    position: absolute;
+    left: 35px;
+    bottom: 35px;
+}
+
+.badge.badge-red {
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+}
+
 
 
 /*DEBUG*/
